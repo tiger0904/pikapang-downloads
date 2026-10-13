@@ -2,9 +2,9 @@
 
 PIKAPANG 是 Windows 商業卡密版工具，提供遊戲輔助、CAPTCHA 偵測與處理、AutoReply 自動回覆，以及受簽章保護的 GitHub 自動更新。
 
-目前最新公開測試版：**PIKAPANG 2.1.0 Beta 3**
+目前最新公開測試版：**PIKAPANG 2.1.0 Beta 4**
 
-> Beta 3 的技術更新版本為 `2.1.1`，用於讓既有 `2.1.0` Client 正確判定為新版。這是公開測試版，不代表 Stable 正式版。
+> Beta 4 的技術更新版本為 `2.1.2`，既有 Beta 1～3 Client 會判定為新版。這是公開測試版（Prerelease），不代表 Stable 正式版。
 
 ## 功能介紹
 
@@ -24,9 +24,25 @@ PIKAPANG 是 Windows 商業卡密版工具，提供遊戲輔助、CAPTCHA 偵測
 ## 下載最新版本
 
 - [GitHub Releases](https://github.com/tiger0904/pikapang-downloads/releases)
-- [PIKAPANG 2.1.0 Beta 3](https://github.com/tiger0904/pikapang-downloads/releases/tag/v2.1.0-beta.3)
+- [PIKAPANG 2.1.0 Beta 4](https://github.com/tiger0904/pikapang-downloads/releases/tag/v2.1.0-beta.4)
 
-請只從官方 GitHub Releases 下載 Commercial ZIP。公開 Release 不包含 Internal 版本、原始碼、私鑰或測試憑證。
+| 使用情境 | 下載檔案 |
+| --- | --- |
+| 第一次安裝或重新安裝 | `pikapang-2.1.2-full-install.zip`（完整安裝包） |
+| 已安裝的使用者 | 不需手動下載，程式內建 Auto Updater 會提示更新 |
+
+- `pikapang-2.1.2-full-install.zip` 內含 `pikapang.exe`、`pikapang_updater.exe`、`updater_config.json` 與 `install_manifest.json`。
+- `pikapang-2.1.2.zip` 與 `pikapang-manifest.json` 是自動更新專用的簽章更新包（只含 `pikapang.exe`），請勿單獨下載當作安裝包；單獨使用時沒有自動更新能力。
+- 從 Beta 1～3 下載單一 ZIP 的使用者，請改下載 Beta 4 完整安裝包重新安裝一次，之後即可自動更新。
+
+SHA256：
+
+```
+498C501D9B8EA5C01AC9F124375F7819F7675970FF2AC1268562F4FF5CE8ADDD  pikapang-2.1.2-full-install.zip
+3F73A6A0E72159C4161FFB78B3A5A27F9CB5AC18E8652A2653E4A7C24F5C6004  pikapang-2.1.2.zip
+```
+
+請只從官方 GitHub Releases 下載。公開 Release 不包含 Internal 版本、原始碼、私鑰或測試憑證。
 
 ## 使用需求
 
@@ -40,12 +56,12 @@ PIKAPANG 是 Windows 商業卡密版工具，提供遊戲輔助、CAPTCHA 偵測
 
 ## 安裝與啟動
 
-1. 從官方 Releases 下載 Commercial ZIP。
-2. 將 ZIP 解壓縮至獨立的安裝目錄。
-3. 啟動 `pikapang.exe`。
-4. 依畫面完成有效卡密授權。
+1. 從官方 Releases 下載 `pikapang-2.1.2-full-install.zip`。
+2. 將 ZIP 全部解壓縮至獨立的安裝目錄。
+3. 確認同一目錄中有 `pikapang.exe`、`pikapang_updater.exe`、`updater_config.json`。
+4. 啟動 `pikapang.exe`，依畫面輸入有效卡密完成授權（Commercial 版本必須有有效卡密）。
 
-請保留同一安裝目錄中的必要更新資源，不要將檔案與 Internal 開發版本混用。
+請保留同一安裝目錄中的更新元件，不要將檔案與 Internal 開發版本混用。若程式提示「自動更新目前無法使用」，代表更新元件遺失，請重新下載完整安裝包。
 
 ## 自動更新
 
@@ -85,7 +101,8 @@ PIKAPANG 是 Windows 商業卡密版工具，提供遊戲輔助、CAPTCHA 偵測
 
 ## 版本紀錄
 
-- **v2.1.0-beta.3**：公開 Beta 3；包含 GitHub 自動更新、進度視窗、更新後自動重啟與完成後關閉視窗。
-- **v2.1.0-beta.2**：前一個公開 Beta，保留歷史下載與驗收記錄。
+- **v2.1.0-beta.4**：公開 Beta 4（`2.1.2`）；新增完整安裝包，修正新用戶缺少自動更新元件的問題；缺件時顯示提示。
+- **v2.1.0-beta.3**：前一個公開 Beta 3；包含 GitHub 自動更新、進度視窗、更新後自動重啟與完成後關閉視窗。
+- **v2.1.0-beta.2**：較早的公開 Beta，保留歷史下載與驗收記錄。
 
 Stable 版本尚未發布。
