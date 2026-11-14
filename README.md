@@ -2,7 +2,7 @@
 
 **作者：皮卡胖｜Discord：`pikapang.`**（安裝、卡密、問題都找這裡）
 
-**最新正式版：v1.4.14**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.4.14/pikapang_v1.4.14.zip)｜[更新內容](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.4.14)
+**最新正式版：v1.4.7**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.4.7/pikapang_v1.4.7.zip)｜[更新內容](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.4.7)
 
 本版整合實走建圖、純座標與學圖分離、走 A 台階及幻影上跳改善，並共用死亡／定時回村的兩頁傳送石回圖。回圖途中只移動、不自動攻擊，確認戰鬥地圖後才恢復；請先在「死亡與回圖」新增並測試戰鬥地圖模板。使用主控臺「立即更新」，或下載 ZIP 後到「授權與關於 → 用下載好的 zip 更新／修復」套用。
 
