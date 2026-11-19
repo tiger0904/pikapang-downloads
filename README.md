@@ -2,9 +2,9 @@
 
 **作者：皮卡胖｜Discord：`pikapang.`**（安裝、卡密、問題都找這裡）
 
-**v1.5.3 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.5.3/pikapang_v1.5.3.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.5.3)
+**v1.5.4 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.5.4/pikapang_v1.5.4.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.5.4)
 
-修正「反向位移」搭配「當主攻鍵」與定時技能時的倒推回牆角與轉身被收招硬直吃掉問題（正向行走、近距離收尾與重試不再誤按反向主攻，走反或貼牆未動時自動補轉身），並強化背景目錄保護（`h3`）白名單與測謊範本預載穩定度。使用主控臺「立即更新」，或下載 ZIP 後到「授權與關於 → 用下載好的 zip 更新／修復」套用。
+優化「座標無縫過點與上下跳銜接」、「法師預設瞬移距離 8 與三鍵同時長壓打怪」、「惡意貼身跟隨遮擋深度防護」與「高百分比經驗條辨識穩定度」，並新增「自動回覆 → 未開框按Enter」自動展開對話框、後臺滑鼠滾輪語法與警報截圖空間自動清理。使用主控臺「立即更新」，或下載 ZIP 後到「授權與關於 → 用下載好的 zip 更新／修復」套用。
 
 本版保留既有所有設定、錄製檔、模板與學圖資料，純座標與學圖模式維持分開，不需重新設定即可直接使用。
 
