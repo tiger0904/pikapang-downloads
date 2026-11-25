@@ -2,9 +2,9 @@
 
 **作者：皮卡胖｜Discord：`pikapang.`**（安裝、卡密、問題都找這裡）
 
-**v1.6.6 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.6.6/pikapang_v1.6.6.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.6.6)
+**v1.6.7 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.6.7/pikapang_v1.6.7.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.6.7)
 
-徹底終結半透明夜空地圖（如新加坡·烏魯莊園Ⅱ）因星點與亮斑飄過地圖名稱區而頻繁誤報「小地圖名稱已確認改變」並觸發重定位的問題；同時補強爬繩起點遭怪物擊飛滯空時的落地保護（正常平地零延遲），以及改進純座標模式首步位於其他樓層時自動從同層最近點起跑完整循環（不改動原保存路線）。使用主控臺「立即更新」，或下載 ZIP 到「授權與關於 → 用下載好的 zip 更新／修復」套用。
+新增適用各個第三方中轉站的「測試反應速度…」工具（實測看圖回應耗時與相容性，並支援一鍵套用最快模型；對話測試同步顯示回覆耗時）；同時修正自動回覆四項實機問題（底部已回覆不重回舊句與短句漏字去重、廣播洗版降低訊息更新誤作廢、自家 4 字名漏末字與裝備浮窗過濾、送出後快速確認減短空等）。使用主控臺「立即更新」，或下載 ZIP 到「授權與關於 → 用下載好的 zip 更新／修復」套用。
 
 本版保留既有所有設定、錄製檔、模板、學圖與跨地圖記憶資料，純座標與學圖模式維持分開，不需重新設定即可直接使用。
 
