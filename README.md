@@ -2,9 +2,9 @@
 
 **作者：皮卡胖｜Discord：`pikapang.`**（安裝、卡密、問題都找這裡）
 
-**v1.7.0 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.7.0/pikapang_v1.7.0.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.7.0)
+**v1.7.1 更新內容**｜[下載 ZIP](https://github.com/tiger0904/pikapang-downloads/releases/download/V1.7.1/pikapang_v1.7.1.zip)｜[完整更新說明](https://github.com/tiger0904/pikapang-downloads/releases/tag/V1.7.1)
 
-大幅優化主控臺視窗拖曳流暢度（解決拖曳時卡頓拖慢整台電腦的問題），新增「來人提醒」自訂 WAV 提示音、停留重複響鈴間隔、響鈴次數與測試響鈴按鈕並修正前一版未正常響鈴異常；同步修正防偵測運作期間偶發找不到檔案錯誤、定時技能誤點死亡復活確認視窗，並強化小地圖黃點遮擋追蹤、名牌辨識與位移連招節奏。使用主控臺「立即更新」，或下載 ZIP 到「授權與關於 → 用下載好的 zip 更新／修復」套用。
+為商店買水與 `CHANNEL CHANGE` 換頻視窗補上純後臺 4 層捲軸自動保底（滾輪未動時自動左鍵點擊捲軸軌道與 `▼` 箭頭，不搶背景焦點），修正換頻「要移動到 X 頻道嗎？」雙鈕確認視窗自動點擊確認、反向位移貼牆折返後搖卡頓 1.5 秒、高懸繩卡繩／蒼蒲滯空爬繩／同圖誤報換圖／帶路傳點誤判 NPC 與直接點選巢狀子分頁變空白等問題，並全面整理各功能分頁介面與商人／補買即時摘要。使用主控臺「立即更新」，或下載 ZIP 到「授權與關於 → 用下載好的 zip 更新／修復」套用。
 
 本版保留既有所有設定、錄製檔、模板、學圖與跨地圖記憶資料，純座標與學圖模式維持分開，不需重新設定即可直接使用。
 
